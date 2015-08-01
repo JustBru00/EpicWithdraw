@@ -1,0 +1,18 @@
+# EpicWithdraw
+# A plugin that allows players to do /withdraw.
+
+# Don't change this!!!
+config version: 1
+
+# Basic plugin configuration.
+basic config:
+ message prefix: '&8[&fEpic&bWithdraw&8] &f' 
+
+# Command Withdraw
+withdraw:
+ no permission: '&cSorry you don't have permission.'
+ # You can use the following variables in this next section.
+ # %withdrew% 
+ # %balance%
+ # %playername% (No colors)
+ command completed: 'Withdrew $%withdrew% and you now have $%balance% left in your bank account.'

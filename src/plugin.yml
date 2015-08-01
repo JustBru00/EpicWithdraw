@@ -1,0 +1,12 @@
+name: EpicWithdraw
+main: com.gmail.justbru00.computersmp.custom.enchants.gui.main.Main
+version: 1.0
+description: A plugin that allows players to do /withdraw.
+author: Justin Brubaker
+depend: [Vault]
+
+commands:
+ epicwithdraw:
+       description: Help and version command.
+ withdraw:
+       description: Allows a player to withdraw money from their bank account.
